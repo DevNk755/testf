@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #891e1e;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#about {
+    background-image: linear-gradient(to bottom, #333, #666);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 50px;
+}
+.text-section {
+    max-width: 50%;
+}
+.text-section h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.text-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+.text-section .highlight {
+    color: #f1c40f;
+    font-weight: 600;
+}
+.text-section .btn {
+    background-color: #f1c40f;
+    color: #0d1117;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.text-section .btn:hover {
+    background-color: #d4ac0d;
+}
+.image-section img {
+    border-radius: 100px;
+    max-width: 100%;
+}
+
+
+
+
+#projects {
+    padding: 2em;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.project {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+
+.project img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
